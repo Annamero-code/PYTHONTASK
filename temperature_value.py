@@ -3,7 +3,7 @@ def temperature_check(celsius,fahrenheit):
     fahrenheit = (celsius * 9 / 5) + 32
     celsius = (fahrenheit - 32) * 5 / 9
 
-    threshold = 50
+    threshold = 20
 
     if fahrenheit < threshold:
         return "Cold advisory"

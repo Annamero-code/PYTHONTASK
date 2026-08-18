@@ -7,10 +7,10 @@
 
 
 
-n = int(input("Enter a number: "))
+number = int(input("Enter a number: "))
 factorial = 1
 
-for number in range (1, n + 1):
+for number in range (1, number + 1):
     factorial *= number
 
 print( factorial)
